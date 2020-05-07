@@ -1,2 +1,4 @@
 import {calc} from "./calc.js"
-console.log(calc.add(2,6))
+import "aos/dist/aos.css"
+import AOS from "aos"
+AOS.init()
